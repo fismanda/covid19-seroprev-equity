@@ -164,7 +164,7 @@ SOFTWARE.
 
 ## Funding
 
-This research was supported by a grant to DNF from the Canadian Institutes for Health Research (2019 COVID-19 rapid research funding OV4-170360).
+This research was supported by grants to DNF from the Canadian Institutes for Health Research (2019 COVID-19 rapid research funding OV4-170360 and operating grant #518192).
 
 ## Contact
 
