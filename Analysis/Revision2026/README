@@ -1,0 +1,23 @@
+# Analysis — Revision 2026
+
+R scripts for the revised analysis submitted to *Epidemics* in June 2026.
+
+## Contents
+
+- `01_fit_saturated_model.R` — Saturated NP model fit (quintile-specific λ_pre and λ_omi)
+- `02_fit_parsimonious_model.R` — Parsimonious model fit (shared Omicron multiplier)
+- `03_compare_models.R` — AIC, BIC, likelihood ratio test
+- `04_calculate_irr_with_ci.R` — IRRs with delta-method CIs
+- `05_calculate_omicron_multipliers_and_rho.R` — Omicron multipliers and ρ with CIs (saturated model)
+- `06_calculate_parsimonious_rho_ci.R` — Parsimonious-model ρ CI (added in revision)
+- `07_generate_sample_size_table_S1B.R` — Generates Supplementary Table S1B (sample sizes by quintile and pandemic period)
+
+All scripts expect to be run from the repository root and read data from `Data/cbs_seroprev_by_quintile.csv`.
+
+## Outputs
+
+- Model fit objects: `saturated_model_estimate_rho.rds`, `parsimonious_model_estimate_rho.rds`
+- Inference objects: `irr_estimates_with_ci.rds`, `omicron_multipliers_with_ci.rds`
+- Supplementary tables: `Table_S1B_sample_sizes.csv`
+
+Figure-generating scripts live in `Figures/revision_2026/`.
