@@ -9,8 +9,9 @@ R scripts for the revised analysis submitted to *Epidemics* in June 2026.
 - `03_compare_models.R` — AIC, BIC, likelihood ratio test
 - `04_calculate_irr_with_ci.R` — IRRs with delta-method CIs
 - `05_calculate_omicron_multipliers_and_rho.R` — Omicron multipliers and ρ with CIs (saturated model)
-- `06_calculate_parsimonious_rho_ci.R` — Parsimonious-model ρ CI (added in revision)
+- `06_calculate_rho_ci.R` — CI for ρ for saturated model
 - `07_generate_sample_size_table_S1B.R` — Generates Supplementary Table S1B (sample sizes by quintile and pandemic period)
+- `08_calculate_parsimonious_rho_ci.R` — Parsimonious-model ρ CI (added in revision)
 
 All scripts expect to be run from the repository root and read data from `Data/cbs_seroprev_by_quintile.csv`.
 
